@@ -43,8 +43,8 @@ export default function Heroe() {
     return (
       <>
       <nav>
-        <a href="/">Inicio</a>
-        <a href="/heroes">Heroes</a>
+        <a href="/HeroesDeMalvinasWeb/">Inicio</a>
+        <a href="/HeroesDeMalvinasWeb/heroes">Heroes</a>
       </nav>
       <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
           <h2>No encontramos a nadie con el documento {id}</h2>
@@ -61,8 +61,8 @@ export default function Heroe() {
   return (
     <>
       <nav>
-        <a href="/">Inicio</a>
-        <a href="/heroes">Heroes</a>
+        <a href="/HeroesDeMalvinasWeb/">Inicio</a>
+        <a href="/HeroesDeMalvinasWeb/heroes">Heroes</a>
       </nav>
       <div className="container">
         <h1 style={{ color: 'white' }}>Honor y Gloria al Héroe {heroe.nombreCompleto} </h1>

@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
     <nav>
-  <a href="/">Inicio</a>
-  <a href="/heroes">Heroes</a>
+  <a href="/HeroesDeMalvinasWeb/">Inicio</a>
+  <a href="/HeroesDeMalvinasWeb/heroes">Heroes</a>
 </nav>
   <div class="container">
   <h1 style={{color:'white'}}>Honor y Gloria a Nuestros Heroes</h1>

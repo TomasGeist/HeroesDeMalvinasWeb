@@ -12,9 +12,9 @@ function App() {
 
     <BrowserRouter basename={'/HeroesDeMalvinasWeb'}>
       <Routes>
-        <Route path='/heroe/:id' element={<Heroe />}/>
+        <Route path='/HeroesDeMalvinasWeb/heroe/:id' element={<Heroe />}/>
 
-        <Route path='/heroes' element={<ListaHeroes />}></Route>
+        <Route path='/HeroesDeMalvinasWeb/heroes' element={<ListaHeroes />}></Route>
         
         <Route path='/' element={<Home />}/>
          

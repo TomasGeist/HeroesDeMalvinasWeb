@@ -26,8 +26,8 @@ export default function ListaHeroes() {
   return (
     <>
       <nav>
-        <a href="/">Inicio</a>
-        <a href="/heroes">Heroes</a>
+        <a href="/HeroesDeMalvinasWeb/">Inicio</a>
+        <a href="/HeroesDeMalvinasWeb/heroes">Heroes</a>
       </nav>
       <h1 style={{ color: 'white' }}>Lista de Combatientes y Veteranos</h1>
       {loading ? (
